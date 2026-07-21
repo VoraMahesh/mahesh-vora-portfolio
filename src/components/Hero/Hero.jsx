@@ -4,6 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { FiGithub, FiLinkedin, FiMail, FiArrowRight, FiDownload } from 'react-icons/fi';
 import { FaWordpress, FaLaravel, FaElementor, FaPhp, FaRobot } from 'react-icons/fa';
 import { SiWoocommerce, SiJquery, SiMysql, SiPostman } from 'react-icons/si';
+import profileImage from "../../assets/images/Mahesh-Vora.png";
+
 
 const Hero = () => {
     return (
@@ -93,7 +95,7 @@ const Hero = () => {
 
                         {/* Image placeholder - in real project replace with actual image */}
                         <div className="w-80 h-80 bg-slate-800 rounded-full overflow-hidden border-4 border-slate-900 z-10 box-shadow-xl relative">
-                            <img src="../src/assets/images/Mahesh-Vora.png" alt="Mahesh Vora" className="w-full h-full object-cover" />
+                            <img src={profileImage} alt="Mahesh Vora" className="w-full h-full object-cover" />
                         </div>
 
                         {/* Floating Icons */}
