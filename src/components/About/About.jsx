@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { FiMonitor, FiUsers, FiBox, FiClock } from 'react-icons/fi';
+import profileImage from "../../assets/images/Mahesh-Vora.png";
 
 const About = () => {
     const stats = [
@@ -19,7 +20,7 @@ const About = () => {
                         <div className="inline-block relative">
                             <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 rounded-2xl transform translate-x-4 translate-y-4"></div>
                             <img
-                                src="../src/assets/images/Mahesh-Vora.png"
+                                src={profileImage}
                                 alt="About Mahesh Vora"
                                 className="relative z-10 rounded-2xl border border-slate-700 w-full max-w-sm mx-auto object-cover glass grayscale hover:grayscale-0 transition-all duration-500"
                             />
