@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { FiMenu, FiX, FiMoon } from 'react-icons/fi';
+import LogoImage from "../../assets/images/Mahesh-logo.png";
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
             <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
                 {/* Logo */}
                 <Link to="home" smooth={true} cursor="pointer" className="text-3xl font-bold cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
-                    MV
+                    <img src={LogoImage} alt="Mahesh Vora Logo" className="w-30 object-cover logo-img" />
                 </Link>
 
                 {/* Desktop Menu */}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiGithub, FiLinkedin, FiMail, FiSend } from 'react-icons/fi';
 import { FaHeart } from 'react-icons/fa';
+import LogoImage from "../../assets/images/Mahesh-logo.png";
 
 const Footer = () => {
     return (
@@ -11,7 +12,7 @@ const Footer = () => {
                     {/* Brand Info */}
                     <div className="md:col-span-1 border-r border-slate-800 pr-4">
                         <h2 className="text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 inline-flex items-center gap-2">
-                            MV <span className="text-white text-sm font-semibold tracking-wide block mt-1">Mahesh Vora</span>
+                            <img src={LogoImage} alt="Mahesh Vora Logo" className="w-40 object-cover logo-footer" />
                         </h2>
                         <p className="text-slate-500 text-xs mb-6">
                             WordPress Developer | Plugin Developer<br />Full Stack Web Developer
