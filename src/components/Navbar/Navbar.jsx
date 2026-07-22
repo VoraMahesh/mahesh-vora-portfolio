@@ -50,9 +50,9 @@ const Navbar = () => {
                     <Link to="contact" smooth={true} offset={-70} className="btn-primary cursor-pointer text-sm">
                         Hire Me
                     </Link>
-                    <button className="p-2 rounded-full bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300 transition-colors">
+                    {/* <button className="p-2 rounded-full bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300 transition-colors">
                         <FiMoon size={18} />
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Mobile Menu Button */}

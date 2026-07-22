@@ -35,10 +35,10 @@ const Skills = () => {
         {
             title: "Backend",
             skills: [
-                { name: 'PHP', percentage: 90 },
+                { name: 'PHP', percentage: 95 },
                 { name: 'MySQL', percentage: 85 },
-                { name: 'REST API', percentage: 80 },
-                { name: 'JQuery', percentage: 75 },
+                { name: 'REST API', percentage: 90 },
+                { name: 'JQuery', percentage: 95 },
                 { name: 'JavaScript', percentage: 85 },
             ]
         },
@@ -47,7 +47,7 @@ const Skills = () => {
             skills: [
                 { name: 'HTML5', percentage: 95 },
                 { name: 'CSS3', percentage: 90 },
-                { name: 'React', percentage: 70 },
+                { name: 'React', percentage: 75 },
                 { name: 'Bootstrap', percentage: 85 },
                 { name: 'Tailwind CSS', percentage: 75 },
             ]
@@ -56,7 +56,7 @@ const Skills = () => {
             title: "Tools",
             skills: [
                 { name: 'AI Tool', percentage: 90 },
-                { name: 'GitHub', percentage: 85 },
+                { name: 'GitHub', percentage: 95 },
                 { name: 'VS Code', percentage: 90 },
                 { name: 'Figma', percentage: 95 },
                 { name: 'Postman', percentage: 85 },

@@ -65,19 +65,19 @@ const Hero = () => {
                         <a href="#projects" className="btn-primary flex items-center gap-2">
                             View My Work <FiArrowRight />
                         </a>
-                        <a href="/resume.pdf" className="btn-outline flex items-center gap-2 pb-3 pt-3">
+                        {/* <a href="/resume.pdf" className="btn-outline flex items-center gap-2 pb-3 pt-3">
                             Download Resume <FiDownload />
-                        </a>
+                        </a> */}
                     </div>
 
                     <div className="flex items-center gap-4">
                         <span className="text-sm text-slate-400 uppercase tracking-wider font-medium">Follow Me</span>
                         <div className="w-12 h-[1px] bg-slate-700"></div>
                         <div className="flex space-x-4">
-                            <a href="https://github.com/voramahesh" className="w-10 h-10 rounded-full glass border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:border-purple-500 hover:bg-purple-900/20 transition-all">
+                            <a href="https://github.com/voramahesh" target='_blank' rel='noopener noreferrer' className="w-10 h-10 rounded-full glass border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:border-purple-500 hover:bg-purple-900/20 transition-all">
                                 <FiGithub size={20} />
                             </a>
-                            <a href="https://in.linkedin.com/in/mahesh-vora-760787200" className="w-10 h-10 rounded-full glass border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:border-blue-500 hover:bg-blue-900/20 transition-all">
+                            <a href="https://in.linkedin.com/in/mahesh-vora-760787200" target='_blank' rel='noopener noreferrer' className="w-10 h-10 rounded-full glass border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:border-blue-500 hover:bg-blue-900/20 transition-all">
                                 <FiLinkedin size={20} />
                             </a>
                             <a href="mailto:[voramahesh63@gmail.com]" className="w-10 h-10 rounded-full glass border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:border-rose-500 hover:bg-rose-900/20 transition-all">
@@ -141,12 +141,12 @@ const Hero = () => {
             </div>
 
             {/* Decorative Wave Divider at bottom - approximate of the design */}
-            <div className="absolute bottom-0 w-full overflow-hidden leading-none z-0">
+            {/* <div className="absolute bottom-0 w-full overflow-hidden leading-none z-0">
                 <svg className="relative block w-full h-[60px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C7.2,4.6,14.61,9.08,22.25,13.43c75.69,42.4,166.44,53.4,251.69,41.97,15.86-2.12,31.62-4.99,47.45-8.96Z" fill="#0f172a"></path>
                     <path d="M1200 120L0 120 0 0 1200 0 1200 120z" fill="none" stroke="rgba(139, 92, 246, 0.5)" strokeWidth="2" strokeDasharray="5,5"></path>
                 </svg>
-            </div>
+            </div> */}
         </section>
     );
 };

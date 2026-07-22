@@ -17,10 +17,10 @@ const Footer = () => {
                             WordPress Developer | Plugin Developer<br />Full Stack Web Developer
                         </p>
                         <div className="flex space-x-3">
-                            <a href="https://github.com/voramahesh" className="w-8 h-8 rounded-full glass flex items-center justify-center text-slate-400 hover:text-white hover:bg-purple-900/20 transition-all border border-slate-700">
+                            <a href="https://github.com/voramahesh" target='_blank' rel='noopener noreferrer' className="w-8 h-8 rounded-full glass flex items-center justify-center text-slate-400 hover:text-white hover:bg-purple-900/20 transition-all border border-slate-700">
                                 <FiGithub size={14} />
                             </a>
-                            <a href="https://in.linkedin.com/in/mahesh-vora-760787200" className="w-8 h-8 rounded-full glass flex items-center justify-center text-slate-400 hover:text-white hover:bg-blue-900/20 transition-all border border-slate-700">
+                            <a href="https://in.linkedin.com/in/mahesh-vora-760787200" target='_blank' rel='noopener noreferrer' className="w-8 h-8 rounded-full glass flex items-center justify-center text-slate-400 hover:text-white hover:bg-blue-900/20 transition-all border border-slate-700">
                                 <FiLinkedin size={14} />
                             </a>
                             <a href="mailto:[voramahesh63@gmail.com]" className="w-8 h-8 rounded-full glass flex items-center justify-center text-slate-400 hover:text-white hover:bg-rose-900/20 transition-all border border-slate-700">
